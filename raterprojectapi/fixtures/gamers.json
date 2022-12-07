@@ -1,0 +1,10 @@
+[
+    {
+        "model": "raterprojectapi.gamer",
+        "pk": 1,
+        "fields": {
+            "uid": "K90PlpuaHsOJFOiu848Iwnl4LFO2",
+            "name": "Christian"
+        }
+    }
+]

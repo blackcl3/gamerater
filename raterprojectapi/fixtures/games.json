@@ -1,0 +1,30 @@
+[
+    {
+        "model": "raterprojectapi.game",
+        "pk": 1,
+        "fields": {
+            "title": "Pandemic",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "designer": "NPR",
+            "user_id": 1,
+            "number_of_players": 4,
+            "est_time_of_play": 4,
+            "age_recommendation": 4,
+            "year": "1996-01-01"
+        }
+    },
+        {
+        "model": "raterprojectapi.game",
+        "pk": 2,
+        "fields": {
+            "title": "Medieval Scholar",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "designer": "NPR",
+            "user_id": 1,
+            "number_of_players": 5,
+            "est_time_of_play": 60,
+            "age_recommendation": 4,
+            "year": "2022-01-01"
+        }
+    }
+]

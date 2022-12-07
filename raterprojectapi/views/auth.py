@@ -1,6 +1,6 @@
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-
+from raterprojectapi.models import Gamer
 
 @api_view(['POST'])
 def check_user(request):
@@ -13,20 +13,20 @@ def check_user(request):
 
     # Use the built-in authenticate method to verify
     # authenticate returns the user object or None if no user is found
-    # gamer = Gamer.objects.filter(uid=uid).first()
+    gamer = Gamer.objects.filter(uid=uid).first()
 
     # If authentication was successful, respond with their token
-    # if gamer is not None:
-    #     data = {
-    #         'id': gamer.id,
-    #         'uid': gamer.uid,
-    #         'bio': gamer.bio
-    #     }
-    #     return Response(data)
-    # else:
+    if gamer is not None:
+        data = {
+            'id': gamer.id,
+            'uid': gamer.uid,
+            'name': gamer.name,
+        }
+        return Response(data)
+    else:
     #     # Bad login details were provided. So we can't log the user in.
-    #     data = {'valid': False}
-    #     return Response(data)
+        data = {'valid': False}
+        return Response(data)
 
 
 @api_view(['POST'])
