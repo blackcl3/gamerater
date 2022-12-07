@@ -1,0 +1,29 @@
+[
+    {
+        "model": "raterprojectapi.gamereview",
+        "pk": 1,
+        "fields": {
+            "description": "Cool game about living through the Black Death. Brutal.",
+            "user_id": 1,
+            "game_id": 1
+        }
+    },
+    {
+        "model": "raterprojectapi.gamereview",
+        "pk": 2,
+        "fields": {
+            "description": "Didn't understand how to play",
+            "user_id": 1,
+            "game_id": 2
+        }
+    },
+    {
+        "model": "raterprojectapi.gamereview",
+        "pk": 3,
+        "fields": {
+            "description": "Interesting playthrough of the day-to-day of a medieval scholar, full of intrigue and postulating. You should have a strong grasp on Latin, but knowledge of anything prior to Plato isn't necessary.",
+            "user_id": 1,
+            "game_id": 2
+        }
+    }
+]
